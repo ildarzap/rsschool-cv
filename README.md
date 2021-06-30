@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ildarzap.github.io/rsschool-cv/cv
