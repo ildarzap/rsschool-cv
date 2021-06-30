@@ -30,6 +30,6 @@ closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
 ```
-6.**Work experience** *So far, nothing.*
-7.**Education**: "Calculating technology and software" Saran College of Humanities and Technology named after Abay Kunanbaev
-8.**English**: A2
+6. **Work experience** *So far, nothing.*
+7. **Education**: "Calculating technology and software" Saran College of Humanities and Technology named after Abay Kunanbaev
+8. **English**: A2
