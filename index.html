@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ildar Zapparov CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <img class="photo" src="img/photo.jpg" alt="photo">
+            <h1 class="header__title">Hi, I am Ildar, Front-end Developer </h1>
+        </header>
+        <main>
+            <section class="about-me">
+                <h2 class="about-me__title">About me</h2>
+                <p class="about-me__text">
+                    My current goal is to become a Frontend developer. I’m just starting my journey in development, so I
+                    have no work experience, but I have a great desire for knowledge and learning
+                </p>
+            </section>
+            <section class="skills">
+                <h2 class="skills__title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__list-item">HTML</li>
+                    <li class="skills__list-item">CSS</li>
+                    <li class="skills__list-item">JS </li>
+                    <li class="skills__list-item">Git</li>
+                    <li class="skills__list-item">BEM</li>
+                    <li class="skills__list-item">SCSS</li>
+                </ul>
+            </section>
+            <section class="code-examples">
+                <h2 class="code-exapmles__title">Code Examples</h2>
+                <pre class="code-examples__example">
+                const hamburger = document.querySelector('.hamburger'),
+                menu = document.querySelector('.menu'),
+                closeElem = document.querySelector('.menu__close');
+                
+                hamburger.addEventListener('click', () => {
+                    menu.classList.add('active');
+                });
+                
+                closeElem.addEventListener('click', () => {
+                    menu.classList.remove('active');
+                });
+                </pre>
+            </section>
+            <section class="info">
+                <div class="info-work">
+                    <h2 class="info__title"> Work experience:</h2>
+                    <span>So far, nothing.</span>
+                </div>
+
+                <div class="info-education">
+                    <h2 class="info__title"> Education:</h2>
+                    <span>“Calculating technology and software” Saran College of Humanities and Technology named
+                        after Abay Kunanbaev</span>
+                </div>
+
+                <div class="info-english">
+                    <h2 class="info__title"> English:</h2>
+                    <span> A2</span>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="https://github.com/ildarzap" class="footer__link-github">My Github</a>
+            <span class="date">2021</span>
+            <a href="https://rs.school/js/" class="footer__link-course">
+                <img class="footer__link-img" src="img/rs_school_js.svg" alt="course image">
+            </a>
+        </footer>
+    </div>
+</body>
+
+</html>
